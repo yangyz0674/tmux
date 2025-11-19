@@ -1275,7 +1275,7 @@ const struct options_table_entry options_table[] = {
 	  .type = OPTIONS_TABLE_CHOICE,
 	  .scope = OPTIONS_TABLE_WINDOW,
 	  .choices = options_table_pane_border_lines_list,
-	  .default_num = PANE_LINES_SINGLE,
+	  .default_num = PANE_LINES_DOUBLE,
 	  .text = "Type of characters used to draw pane border lines. Some of "
 		  "these are only supported on terminals with UTF-8 support."
 	},

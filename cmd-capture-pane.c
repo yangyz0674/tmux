@@ -51,7 +51,7 @@ const struct cmd_entry cmd_capture_pane_entry = {
 
 const struct cmd_entry cmd_clear_history_entry = {
 	.name = "clear-history",
-	.alias = "clearhist",
+	.alias = "ccc",
 
 	.args = { "Ht:", 0, 0, NULL },
 	.usage = "[-H] " CMD_TARGET_PANE_USAGE,
